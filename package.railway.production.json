@@ -1,0 +1,28 @@
+{
+  "name": "money-management-pro",
+  "version": "2.1.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.production.js",
+    "build": "npm run build:client",
+    "build:client": "vite build --config vite.config.production.ts",
+    "dev": "node server.production.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.8",
+    "@vitejs/plugin-react": "^4.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.2",
+    "vite": "^5.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
