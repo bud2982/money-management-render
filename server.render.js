@@ -157,7 +157,7 @@ app.post('/api/sessions/:id/bets', (req, res) => {
 });
 
 // Serve static files from dist if available
-const distPath = path.join(__dirname, 'dist');
+const distPath = path.join(__dirname, 'dist', 'public');
 if (fs.existsSync(distPath)) {
   console.log('Serving static files from:', distPath);
   app.use(express.static(distPath));
