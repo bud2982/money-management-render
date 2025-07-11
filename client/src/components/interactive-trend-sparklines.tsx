@@ -337,7 +337,7 @@ export default function InteractiveTrendSparklines({
                 className={`p-4 rounded-lg border-2 transition-all cursor-pointer ${
                   hoveredSession === data.session.id 
                     ? 'border-blue-300 bg-blue-50 shadow-md' 
-                    : 'border-gray-200 hover:border-gray-300'
+                    : 'border-slate-200 hover:border-slate-300'
                 }`}
                 onMouseEnter={() => setHoveredSession(data.session.id)}
                 onMouseLeave={() => setHoveredSession(null)}

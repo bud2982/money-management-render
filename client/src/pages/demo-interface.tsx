@@ -284,7 +284,7 @@ export default function DemoInterface() {
                     </div>
                   </div>
 
-                  <div className="bg-gray-50 border border-gray-200 rounded-lg p-3">
+                  <div className="bg-gray-50 border border-slate-200 rounded-lg p-3">
                     <h4 className="font-semibold text-gray-800 mb-2">Info Demo:</h4>
                     <p className="text-xs text-gray-600">
                       I calcoli mostrati sono versioni semplificate delle strategie reali. 

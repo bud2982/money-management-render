@@ -141,7 +141,7 @@ export default function DemoInvite() {
                     className={`p-3 border rounded-lg cursor-pointer transition-all ${
                       demoType === key 
                         ? 'border-blue-500 bg-blue-50' 
-                        : 'border-gray-200 hover:border-gray-300'
+                        : 'border-slate-200 hover:border-slate-300'
                     }`}
                     onClick={() => setDemoType(key)}
                   >

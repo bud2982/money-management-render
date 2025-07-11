@@ -61,7 +61,7 @@ export default function BadgesDisplay({ session, bets }: BadgesDisplayProps) {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3 }}
-        className={`bg-white p-4 rounded-lg border ${badge.unlocked ? 'border-gray-200' : 'border-gray-100 opacity-60'}`}
+        className={`bg-white p-4 rounded-lg border ${badge.unlocked ? 'border-slate-200' : 'border-slate-100 opacity-60'}`}
       >
         <div className="flex items-start">
           <div className="mr-3">

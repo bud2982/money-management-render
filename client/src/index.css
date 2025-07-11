@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Rimosse direttive @tailwind per UnoCSS */
 
 :root {
   --background: 0 0% 100%;
@@ -66,7 +64,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-slate-200;
   }
 
   body {

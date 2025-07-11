@@ -58,14 +58,14 @@ app.get('/health', (req, res) => {
 });
 
 // Root endpoint
-app.get('/', (req, res) => {
-  res.json({ 
-    message: 'Money Management Pro API',
-    status: 'running',
-    platform: 'render',
-    endpoints: ['/health', '/api/auth/user', '/api/sessions']
-  });
-});
+// app.get('/', (req, res) => {
+//   res.json({ 
+//     message: 'Money Management Pro API',
+//     status: 'running',
+//     platform: 'render',
+//     endpoints: ['/health', '/api/auth/user', '/api/sessions']
+//   });
+// });
 
 // API Routes
 app.get('/api/auth/user', (req, res) => {
