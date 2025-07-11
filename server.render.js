@@ -163,7 +163,7 @@ if (fs.existsSync(distPath)) {
   app.use(express.static(distPath));
   
   // SPA fallback: tutte le rotte non-API e non /health restituiscono index.html
-  app.get('*', (req, res) => {
+  app.get('/*', (req, res) => {
     if (req.path.startsWith('/api/') || req.path === '/health') {
       res.status(404).json({ error: 'API endpoint not found' });
     } else {
@@ -172,7 +172,7 @@ if (fs.existsSync(distPath)) {
   });
 } else {
   console.log('Dist folder not found, serving API only');
-  app.get('*', (req, res) => {
+  app.get('/*', (req, res) => {
     if (req.path.startsWith('/api/')) {
       res.status(404).json({ error: 'API endpoint not found' });
     } else {
