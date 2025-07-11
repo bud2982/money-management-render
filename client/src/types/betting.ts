@@ -1,4 +1,4 @@
-export type BettingStrategy = 'percentage' | 'dalembert' | 'profitfall' | 'masaniello' | 'kelly' | 'beat-delay';
+export type BettingStrategy = 'percentage' | 'dalembert' | 'profitfall' | 'masaniello' | 'kelly' | 'beat-delay' | 'flat';
 
 export interface KellyEvent {
   id: string;
