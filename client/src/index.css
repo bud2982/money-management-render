@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Base styles for Money Management Pro */
 
 :root {
@@ -63,37 +67,37 @@
 }
 
 /* Base styles */
-* {
+  * {
   border-color: hsl(var(--border));
-}
+  }
 
-body {
+  body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
-}
+  }
 
 /* Component styles */
-.bg-sports-overlay {
+  .bg-sports-overlay {
   position: fixed;
   inset: 0;
   z-index: -1;
-}
-
-.sports-img {
+  }
+  
+  .sports-img {
   object-fit: cover;
   width: 100%;
   height: 100%;
   opacity: 0.05;
-}
+  }
 
 /* Utility classes */
-.font-montserrat {
-  font-family: 'Montserrat', sans-serif;
-}
-
-.font-roboto {
-  font-family: 'Roboto', sans-serif;
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .font-roboto {
+    font-family: 'Roboto', sans-serif;
 }
