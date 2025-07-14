@@ -485,7 +485,7 @@ export default function Home() {
         {/* Strategie disponibili */}
         <div className="mb-6">
           <h2 className="text-xl font-semibold text-primary mb-4">Strategie Disponibili</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 
             
             <Card className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
