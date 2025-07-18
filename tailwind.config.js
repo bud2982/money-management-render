@@ -2,14 +2,25 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-    './client/src/**/*.{ts,tsx}',
-    './client/index.html',
+    "./client/index.html",
+    "./client/src/**/*.{js,jsx,ts,tsx}"
   ],
   prefix: "",
+  safelist: [
+    'bg-primary', 'bg-secondary', 'bg-accent', 'bg-destructive', 'bg-muted', 'bg-card',
+    'text-primary', 'text-secondary', 'text-accent', 'text-destructive', 'text-muted', 'text-card',
+    'grid', 'grid-cols-1', 'grid-cols-2', 'grid-cols-3', 'grid-cols-4',
+    'rounded', 'rounded-md', 'rounded-lg', 'rounded-xl',
+    'shadow', 'shadow-md', 'shadow-lg',
+    'hover:bg-primary', 'hover:bg-secondary', 'hover:bg-accent',
+    'hover:shadow-lg', 'hover:-translate-y-0.5',
+    'transition', 'transition-colors', 'transition-transform',
+    'p-4', 'p-6', 'm-4', 'mb-4', 'gap-4', 'gap-6',
+    'container', 'mx-auto', 'px-4', 'py-6',
+    'flex', 'items-center', 'justify-center',
+    'w-full', 'h-full', 'h-2', 'w-2',
+    'bg-yellow-400', 'bg-gray-200',
+  ],
   theme: {
     container: {
       center: true,
