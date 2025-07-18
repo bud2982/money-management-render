@@ -369,7 +369,7 @@ export default function Home() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
-              <div className="text-2xl font-montserrat font-bold">TOP BET MONEY MANAGEMENT</div>
+              <div className="text-2xl font-montserrat font-bold">TEST LAYOUT NUOVO - TOP BET MONEY MANAGEMENT</div>
             </div>
           </div>
         </div>
